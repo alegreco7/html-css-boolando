@@ -36,3 +36,37 @@ header{
     font-weight: 600;
     font-size: 15px;
 }
+div.row {
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+.item {
+    display: inline-block;
+    width: calc(100%/3 - 4px);
+    vertical-align: top;
+    position: relative;
+}
+div > img {
+    width: 100%;
+}
+.heart {
+    font-size: 1em;
+    position: absolute;
+    top: 1em;
+    right: 0;
+    background-color: #ffffff;
+    padding: .1em .4em;
+}
+.hover-heart {
+    color: red; 
+    display: none;
+}
+.item:hover .hover-heart {
+    display: block;
+}
+.bg-settings {
+    font-weight: bold;
+    font-size: .8em;
+    padding: 0 .2em;
+    color: #ffffff;
+}
